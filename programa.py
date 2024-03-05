@@ -59,10 +59,10 @@ def suma(a, b):
     return a + b
     # Se devuelve la suma de los dos números recibidos como argumentos
 
-# if __name__ == "__main__":
-#     num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
-#     # Se solicita al usuario que ingrese el segundo número
-#     print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
+if __name__ == "__main__":
+    num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
+    num2 = int(input("Ingrese el segundo número: "))# Se solicita al usuario que ingrese el segundo número
+    print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
 
 # # 7 Modifica la función que calcula el área del círculo para que reciba el radio como parámetro.
 # import math
