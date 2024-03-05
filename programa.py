@@ -8,12 +8,14 @@ if __name__ == "__main__":
 
 # # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
 # def suma_1_al_10():
-#     suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
-#     # Se devuelve el resultado de la suma
+#     sumat = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
+#     return suma_1_al_10()
+#     Se devuelve el resultado de la suma
 
 # if __name__ == "__main__":
 #     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
-#     # Se imprime el resultado de la suma
+#     print("El resultado es:", resultado)
+#     Se imprime el resultado de la suma
 
 # # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
 # def imprimir_datos_personales(nombre, edad, estatura):
@@ -55,10 +57,10 @@ def suma(a, b):
     return a + b
     # Se devuelve la suma de los dos números recibidos como argumentos
 
-if __name__ == "__main__":
-    num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
-    num2 = int(input("Ingrese el segundo número: "))# Se solicita al usuario que ingrese el segundo número
-    print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
+# if __name__ == "__main__":
+#     num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
+#     num2 = int(input("Ingrese el segundo número: "))# Se solicita al usuario que ingrese el segundo número
+#     print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
 
 # # 7 Modifica la función que calcula el área del círculo para que reciba el radio como parámetro.
 # import math
