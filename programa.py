@@ -2,6 +2,7 @@
 def imprimir_nombre():
     # Aquí se imprime el nombre en la pantalla
 
+
 if __name__ == "__main__":
     # Se llama a la función imprimir_nombre() para ejecutarla
 
@@ -29,8 +30,11 @@ if __name__ == "__main__":
 def par_o_impar(numero):
     # Se verifica si el número es divisible por 2
         # Si es divisible, se devuelve "par"
+    if numero%2==0:
+        return ("par")
     else:
         # Si no es divisible, se devuelve "impar"
+        return ("impar")
 
 if __name__ == "__main__":
     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
