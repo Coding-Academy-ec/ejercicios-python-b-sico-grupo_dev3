@@ -2,6 +2,7 @@
 def imprimir_nombre():
     print("Diego Saavedra")
 
+
 if __name__ == "__main__":
     imprimir_nombre() 
     # Se llama a la función imprimir_nombre() para ejecutarla
@@ -28,12 +29,15 @@ if __name__ == "__main__":
 #     estatura = 1.75
 #     # Se llama a la función imprimir_datos_personales() para mostrar los datos
 
-# # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
-# def par_o_impar(numero):
-#     # Se verifica si el número es divisible por 2
-#         # Si es divisible, se devuelve "par"
-#     else:
-#         # Si no es divisible, se devuelve "impar"
+# 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
+def par_o_impar(numero):
+    # Se verifica si el número es divisible por 2
+        # Si es divisible, se devuelve "par"
+    if numero%2==0:
+        return ("par")
+    else:
+        # Si no es divisible, se devuelve "impar"
+        return ("impar")
 
 # if __name__ == "__main__":
 #     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
