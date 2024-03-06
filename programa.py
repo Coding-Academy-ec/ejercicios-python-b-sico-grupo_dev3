@@ -1,10 +1,10 @@
-""" # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
-def imprimir_nombre():
-    print("Diego Saavedra")
+#  # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
+# def imprimir_nombre():
+#     print("Diego Saavedra")
 
 
-if __name__ == "__main__":
-    imprimir_nombre()  """
+# if __name__ == "__main__":
+#     imprimir_nombre() 
     # Se llama a la función imprimir_nombre() para ejecutarla
 
 # # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
@@ -31,19 +31,19 @@ if __name__ == "__main__":
 #     # Se llama a la función imprimir_datos_personales() para mostrar los datos
 #     imprimir_datos_personales(nombre,edad,estatura)
 
-# 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
-def par_o_impar(numero):
-    #Se verifica si el número es divisible por 2
-    #    Si es divisible, se devuelve "par"
-    if numero%2==0:
-        return ("par")
-    else:
-        #Si no es divisible, se devuelve "impar"
-        return ("impar")
+# # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
+# def par_o_impar(numero):
+#     #Se verifica si el número es divisible por 2
+#     #    Si es divisible, se devuelve "par"
+#     if numero%2==0:
+#         return ("par")
+#     else:
+#         #Si no es divisible, se devuelve "impar"
+#         return ("impar")
 
-if __name__ == "__main__":
-     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
-     print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
+# if __name__ == "__main__":
+#      num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
+#      print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
 
 # 5 Crea una función que calcule el área de un círculo dado su radio.
 # import math
@@ -58,15 +58,15 @@ if __name__ == "__main__":
 #     print("El Area del circulo es: ", area_circulo) 
 #     # Se imprime el área calculada del círculo
 
-# # # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
-# def suma(a, b):
-#     return a + b
-    # Se devuelve la suma de los dos números recibidos como argumentos
+# # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
+def suma(a, b):
+    return a + b
+    #Se devuelve la suma de los dos números recibidos como argumentos
 
-# if __name__ == "__main__":
-#     num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
-#     num2 = int(input("Ingrese el segundo número: "))# Se solicita al usuario que ingrese el segundo número
-#     print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
+if __name__ == "__main__":
+    num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
+    num2 = int(input("Ingrese el segundo número: "))# Se solicita al usuario que ingrese el segundo número
+    print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
 
 # # 7 Modifica la función que calcula el área del círculo para que reciba el radio como parámetro.
 # import math
