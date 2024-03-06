@@ -41,9 +41,9 @@ def par_o_impar(numero):
         #Si no es divisible, se devuelve "impar"
         return ("impar")
 
-if __name__ == "__main__":
-     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
-     print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
+# if __name__ == "__main__":
+#      num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
+#      print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
 
 # 5 Crea una función que calcule el área de un círculo dado su radio.
 import math
@@ -57,15 +57,15 @@ if __name__ == "__main__":
     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
     print("El Area del circulo es: ", area_circulo) 
 
-# # # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
-# def suma(a, b):
-#     return a + b
-    # Se devuelve la suma de los dos números recibidos como argumentos
+# # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
+def suma(a, b):
+    return a + b
+    #Se devuelve la suma de los dos números recibidos como argumentos
 
-# if __name__ == "__main__":
-#     num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
-#     num2 = int(input("Ingrese el segundo número: "))# Se solicita al usuario que ingrese el segundo número
-#     print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
+if __name__ == "__main__":
+    num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
+    num2 = int(input("Ingrese el segundo número: "))# Se solicita al usuario que ingrese el segundo número
+    print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
 
 # # 7 Modifica la función que calcula el área del círculo para que reciba el radio como parámetro.
 # import math
