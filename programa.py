@@ -16,16 +16,18 @@ if __name__ == "__main__":
 #     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
 #     # Se imprime el resultado de la suma
 
-# # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
-# def imprimir_datos_personales(nombre, edad, estatura):
-#     # Se imprimen en pantalla los datos personales recibidos como argumentos
+# 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
+def imprimir_datos_personales(nombre, edad, estatura):
+    # Se imprimen en pantalla los datos personales recibidos como argumentos
+    print("Nombre:", nombre,"\nEdad:", edad,"\nEstatura:",estatura)
 
-# if __name__ == "__main__":
-#     # Se definen las variables con los datos personales
-#     nombre = "Tu nombre"
-#     edad = 30
-#     estatura = 1.75
-#     # Se llama a la función imprimir_datos_personales() para mostrar los datos
+if __name__ == "__main__":
+    # Se definen las variables con los datos personales
+    nombre = "Tu nombre"
+    edad=30
+    estatura = 1.75
+    # Se llama a la función imprimir_datos_personales() para mostrar los datos
+    imprimir_datos_personales(nombre,edad,estatura)
 
 # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 """ def par_o_impar(numero):
@@ -75,16 +77,16 @@ def suma(a, b):
 #     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
 #     print("El área del círculo es:", area_circulo(radio))  # Se imprime el área calculada del círculo
 
- # 8 Diseña un programa que convierta grados Celsius a Fahrenheit y viceversa, utilizando funciones para realizar los cálculos.
-def celsius_a_fahrenheit(celsius):
-    return (celsius * 9/5) + 32  # Se aplica la fórmula de conversión de Celsius a Fahrenheit
+#  # 8 Diseña un programa que convierta grados Celsius a Fahrenheit y viceversa, utilizando funciones para realizar los cálculos.
+# def celsius_a_fahrenheit(celsius):
+#     return (celsius * 9/5) + 32  # Se aplica la fórmula de conversión de Celsius a Fahrenheit
 
-def fahrenheit_a_celsius(fahrenheit):
-    # Se aplica la fórmula de conversión de Fahrenheit a Celsius
-    return ((fahrenheit-32)*5/9)
-if __name__ == "__main__":
-    celsius = float(input("Ingrese la temperatura en grados Celsius: "))  # Se solicita al usuario que ingrese la temperatura en grados Celsius
-    print("Temperatura en Fahrenheit:", celsius_a_fahrenheit(celsius))  # Se imprime la temperatura convertida a grados Fahrenheit
-    # Se solicita al usuario que ingrese la temperatura en grados Fahrenheit
-    fahrenheit = float(input("Ingrese la temperatura en grados fahrenheit: "))
-    print("Temperatura en Celsius:", fahrenheit_a_celsius(fahrenheit))  # Se imprime la temperatura convertida a grados Celsius
+# def fahrenheit_a_celsius(fahrenheit):
+#     # Se aplica la fórmula de conversión de Fahrenheit a Celsius
+#     return ((fahrenheit-32)*5/9)
+# if __name__ == "__main__":
+#     celsius = float(input("Ingrese la temperatura en grados Celsius: "))  # Se solicita al usuario que ingrese la temperatura en grados Celsius
+#     print("Temperatura en Fahrenheit:", celsius_a_fahrenheit(celsius))  # Se imprime la temperatura convertida a grados Fahrenheit
+#     # Se solicita al usuario que ingrese la temperatura en grados Fahrenheit
+#     fahrenheit = float(input("Ingrese la temperatura en grados fahrenheit: "))
+#     print("Temperatura en Celsius:", fahrenheit_a_celsius(fahrenheit))  # Se imprime la temperatura convertida a grados Celsius
