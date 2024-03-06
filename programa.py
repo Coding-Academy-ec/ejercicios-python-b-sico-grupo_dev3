@@ -7,27 +7,30 @@ if __name__ == "__main__":
     imprimir_nombre() 
     # Se llama a la función imprimir_nombre() para ejecutarla
 
-# # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
-# def suma_1_al_10():
-#     sumat = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
-#     return suma_1_al_10()
-#     Se devuelve el resultado de la suma
+# 2 Escribe un programa que calcule la suma de los números del 1 al 10.
+def suma_1_al_10():
+    suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
+    return suma
+    #Se devuelve el resultado de la suma
 
-# if __name__ == "__main__":
-#     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
-#     print("El resultado es:", resultado)
-#     Se imprime el resultado de la suma
+if __name__ == "__main__":
+    resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
+    print("El resultado es:", resultado)
+    #Se imprime el resultado de la suma
 
-# # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
-# def imprimir_datos_personales(nombre, edad, estatura):
-#     # Se imprimen en pantalla los datos personales recibidos como argumentos
+# 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
+def imprimir_datos_personales(nombre, edad, estatura):
+    print("Nombre:", nombre, "\n Edad:", edad, "\n Estatura:",estatura,"\n" )
+    # Se imprimen en pantalla los datos personales recibidos como argumentos
 
-# if __name__ == "__main__":
-#     # Se definen las variables con los datos personales
-#     nombre = "Tu nombre"
-#     edad = 30
-#     estatura = 1.75
-#     # Se llama a la función imprimir_datos_personales() para mostrar los datos
+if __name__ == "__main__":
+    # Se definen las variables con los datos personales
+    nombre = "Tu nombre"
+    edad = 30
+    estatura = 1.75
+    # Se llama a la función imprimir_datos_personales() para mostrar los datos
+    #imprimir_datos_personales()
+    #print("Tu nombre:", nombre, "\nEdad:", edad, "\nEstatura:",estatura )
 
 # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 def par_o_impar(numero):
