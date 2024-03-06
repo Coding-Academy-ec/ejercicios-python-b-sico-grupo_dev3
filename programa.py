@@ -2,7 +2,6 @@
 def imprimir_nombre():
     print("Diego Saavedra")
 
-
 if __name__ == "__main__":
     imprimir_nombre() 
     # Se llama a la función imprimir_nombre() para ejecutarla
