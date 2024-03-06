@@ -4,7 +4,7 @@ def imprimir_nombre():
 
 
 if __name__ == "__main__":
-    imprimir_nombre() 
+    imprimir_nombre()
     # Se llama a la función imprimir_nombre() para ejecutarla
 
 # # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
@@ -54,7 +54,6 @@ def area_circulo(radio):
 if __name__ == "__main__":
     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
     print("El Area del circulo es: ", area_circulo) 
-    # Se imprime el área calculada del círculo
 
 # # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
 def suma(a, b):
