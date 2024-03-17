@@ -25,9 +25,14 @@ def imprimir_datos_personales(nombre, edad, estatura):
 
 if __name__ == "__main__":
     # Se definen las variables con los datos personales
+    # nombre = input("Ingresa tu nombre: ")
+    # edad   = input("Ingresa tu edad: ")
+    # estatura = input("Ingresa tu estatura: ")
+
     nombre = "Tu nombre"
-    edad=30
+    edad   = 30
     estatura = 1.75
+
     # Se llama a la función imprimir_datos_personales() para mostrar los datos
     imprimir_datos_personales(nombre,edad,estatura)
 
@@ -55,7 +60,7 @@ def area_circulo(radio):
 
 if __name__ == "__main__":
     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
-    print("El Area del circulo es: ", area_circulo) 
+    print("El Area del circulo es: ", area_circulo(radio)) 
 
 # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
 def suma(a, b):
